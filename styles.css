@@ -1,0 +1,114 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+h4,
+h5 {
+    font-weight: 600;
+}
+
+h4 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    margin: 0;
+}
+
+p {
+    color: hsl(209, 18%, 49%);
+    font-size: 13px;
+    margin: 0;
+}
+
+.card {
+    width: 18rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 20px 0 0;
+}
+
+.nftcard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.midbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.pricebox {
+    display: flex;
+    flex-grow: 2;
+    gap: 10px;
+}
+
+.timebox {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+hr {
+    border: 2px hsl(208, 21%, 58%) solid;
+    border-style: inset none none;
+    margin: 16px 0;
+}
+
+.botbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-avatar {
+    width: 12%;
+    border: 1px white solid;
+    border-radius: 100%;
+}
+
+span {
+    color: white;
+}
+
+
+/* Hover  */
+
+.view {
+    background-color: rgba(0, 255, 247, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.nftcard:hover .view {
+    z-index: 1;
+}
+
+h4:hover,
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
